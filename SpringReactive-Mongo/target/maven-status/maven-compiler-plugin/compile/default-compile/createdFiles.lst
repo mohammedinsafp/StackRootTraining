@@ -1,0 +1,7 @@
+com\ust\SpringReactive\Mongo\Dto\ProductDto.class
+com\ust\SpringReactive\Mongo\Service\ProductService.class
+com\ust\SpringReactive\Mongo\Utils\AppUtils.class
+com\ust\SpringReactive\Mongo\SpringReactiveMongoApplication.class
+com\ust\SpringReactive\Mongo\Controller\ProductController.class
+com\ust\SpringReactive\Mongo\Entity\Product.class
+com\ust\SpringReactive\Mongo\Repository\ProductRepository.class

@@ -15,11 +15,11 @@ import java.security.Provider;
 public class ProductController {
     @Autowired
     ProductService productService;
-    @GetMapping
+    @GetMapping("/products")
     public Flux<ProductDto> getProducts(){
         return productService.getProducts();
     }
-    @GetMapping
+    @GetMapping("/product")
     public Mono<ProductDto> getProduct(@PathVariable String id){
         return productService.getProduct(id);
     }
